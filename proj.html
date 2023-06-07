@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="bj" src="bn.jpg" alt="this is a pic">
+        
+    <div class="container">
+        
+        <h3>Welcome to IIT Delhi to Us trip From</h3>
+        <h2 text-align: center> Goooooooo!</h2>
+        <p>Enter your details and submit this form to confirm your participation
+            in hte trip </p>
+        
+        <!--    get and post these are method.post is secure emse hm password wgair send kr skte hai
+        lekin get me jo bhi dat bhejenge URL pe dikhega              -->
+
+        <form action="proj.php" method="post">
+
+            <!-- id kisi element ko uniquely idendify krti hai  class multiple element ko de skte hai -->
+            
+               <input type="text" name="name" id="name" placeholder="Ente your name">
+               <input type="text" name="Gender" id="Gender" placeholder="Enter your Gender">
+               <input type="text" name="E-mail" id="E-mail" placeholder="Enter your E-mail"> 
+               <input type="text" name="Phone" id="Phone" placeholder="Enter your Phone"> 
+               <input type="text" name="Phone" id="Phone" placeholder="Enter your Phone"> 
+
+               <textarea name="desc" id="desc" cols="30" rows="10" 
+               placeholder="Enter any other information"></textarea>
+
+               <button class="btn">Submit</button>
+               <button class="btn">Reset</button>
+            </form>
+        
+    </div>
+    <script scr="proj.js"> </script>
+</body>
+</html>
