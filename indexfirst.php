@@ -108,7 +108,8 @@ echo $variable1--;
 echo "<br>"; //new line
 
 echo ++$variable1;  
-echo "<br>"; //new line
+echo "<br>"; //new lines
+
 echo --$variable1;  
 
 
@@ -158,7 +159,8 @@ echo var_dump($var);
 echo "<br>";
 $var =67;
 echo var_dump($var); 
-
+$var =76;
+echo var_dump($var); 
 echo "<br>";
 $var =67.5;
 echo var_dump($var); 
